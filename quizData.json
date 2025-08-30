@@ -1,0 +1,352 @@
+[
+  {
+    "question": "These are acts or attempted acts such as to jeopardize the safety of civil aviation and air transport.",
+    "options": [
+      "a. Sabotage",
+      "b. Act of Unlawful Interference",
+      "c. Dangerous Goods",
+      "d. Security"
+    ],
+    "answer": "b. Act of Unlawful Interference"
+  },
+  {
+    "question": "A designated area on an apron intended to be used for parking an aircraft.",
+    "options": [
+      "a. Airport",
+      "b. Airside waiting area",
+      "c. Aircraft stand",
+      "d. Apron"
+    ],
+    "answer": "c. Aircraft stand"
+  },
+  {
+    "question": "An aircraft shall be deemed to be ________ from the beginning of the pre– flight preparation of the aircraft by the ground staff or by the crew for a specific flight until twenty– four hours after any landing and the period of such service shall include the entire period during which the aircraft is in flight.",
+    "options": [
+      "a. In Service",
+      "b. In flight",
+      "c. Under Security checks",
+      "d. Under Maintenance"
+    ],
+    "answer": "a. In Service"
+  },
+  {
+    "question": "Space between the departures concourse and airside exists from the passenger building.",
+    "options": [
+      "a. Landside",
+      "b. Apron",
+      "c. Cargo complex",
+      "d. Airside waiting area"
+    ],
+    "answer": "d. Airside waiting area"
+  },
+  {
+    "question": "The non-commercial operation or use of aircraft by a company for the carriage of passengers or goods as an aid to the conduct of company business, flown by a professional pilot employed to fly the aircraft.",
+    "options": [
+      "a. General Aviation",
+      "b. Corporate Aviation",
+      "c. Civil Aviation",
+      "d. Aviation Security"
+    ],
+    "answer": "b. Corporate Aviation"
+  },
+  {
+    "question": "A device, or combination of devices and / or procedures, which are intended to detect amounts and types of explosives in passengers checked and hand carried baggage.",
+    "options": [
+      "a. Explosive Device Detection System",
+      "b. Explosive Detection System",
+      "c. DFMD",
+      "d. HHMD"
+    ],
+    "answer": "b. Explosive Detection System"
+  },
+  {
+    "question": "All civil aviation operations other than scheduled air services and non-scheduled air transport operations for remuneration or hire.",
+    "options": [
+      "a. General Aviation",
+      "b. Civil Aviation",
+      "c. Corporate Aviation",
+      "d. Private Aviation"
+    ],
+    "answer": "a. General Aviation"
+  },
+  {
+    "question": "Human capabilities and limitations which have an impact on the safety, security and efficiency of aeronautical operations.",
+    "options": [
+      "a. Profiling",
+      "b. Screening",
+      "c. Human factor principle",
+      "d. Human performance"
+    ],
+    "answer": "d. Human performance"
+  },
+  {
+    "question": "A person who is or will be refused admission to a State by its authorities.",
+    "options": [
+      "a. Interline passenger",
+      "b. Transit passenger",
+      "c. Inadmissible passenger",
+      "d. SkyMarshal"
+    ],
+    "answer": "c. Inadmissible passenger"
+  },
+  {
+    "question": "A consignment of multi-packages which has been originated by more than one person, each of whom has made an agreement for carriage by air with another person other than a scheduled air carrier.",
+    "options": [
+      "a. Consolidated cargo",
+      "b. Courier",
+      "c. Dangerous Goods",
+      "d. Mail"
+    ],
+    "answer": "a. Consolidated cargo"
+  },
+  {
+    "question": "Measures adopted to safeguard civil aviation against acts of unlawful interference.",
+    "options": [
+      "a. Screening",
+      "b. Profiling",
+      "c. Security Audit",
+      "d. Security Programme"
+    ],
+    "answer": "d. Security Programme"
+  },
+  {
+    "question": "An aircraft shall be deemed to be ________ at any time from the moment when all its external doors are closed following embarkation until the moment when any such door is opened for disembarkation.",
+    "options": [
+      "a. In Service",
+      "b. In Flight",
+      "c. Under Surveillance",
+      "d. Under Maintenance"
+    ],
+    "answer": "b. In Flight"
+  },
+  {
+    "question": "Land side is that area of an airport and buildings to which both travelling passengers and the non-travelling public have _____________ access.",
+    "options": [
+      "a. unrestricted",
+      "b. controlled",
+      "c. restricted",
+      "d. regulated"
+    ],
+    "answer": "a. unrestricted"
+  },
+  {
+    "question": "Passengers are boarding an aircraft. Suddenly one passenger enters the cockpit and threatens the pilot with a knife. This incident is an example of",
+    "options": [
+      "a. Sabotage of aircraft",
+      "b. Unlawful seizure of aircraft on ground",
+      "c. Unlawful seizure of aircraft in air",
+      "d. Terrorist attack on aircraft"
+    ],
+    "answer": "b. Unlawful seizure of aircraft on ground"
+  },
+  {
+    "question": "Profiling is the systematic _________ of persons and baggage and questioning if necessary to categories them two group i.e. threatening and non threatening.",
+    "options": [
+      "a. frisking",
+      "b. observation",
+      "c. screening",
+      "d. briefing"
+    ],
+    "answer": "b. observation"
+  },
+  {
+    "question": "Sterile area is the area between any passenger inspection or screening control point and the _________ into which access is strictly controlled.",
+    "options": [
+      "a. Boarding gate",
+      "b. Aerobridge",
+      "c. Ramp",
+      "d. Aircraft"
+    ],
+    "answer": "d. Aircraft"
+  },
+  {
+    "question": "Aviation security is a combination of measures, human and __________ , intended to safeguard civil aviation against acts of unlawful interference.",
+    "options": [
+      "a. SOP’s",
+      "b. Procedures",
+      "c. Material resources",
+      "d. SARP’s"
+    ],
+    "answer": "c. Material resources"
+  },
+  {
+    "question": "Regulated Agent is an agent, freight forwarder or any other entity who conducts business with an operator and provides _____________that are accepted or required by the appropriate authority in respect of cargo, courier and express parcels or mail.",
+    "options": [
+      "a. Services",
+      "b. Security control",
+      "c. Commission",
+      "d. Infrastructure"
+    ],
+    "answer": "b. Security control"
+  },
+  {
+    "question": "The authority designated by a State within its administration to be responsible for the development, implementation and maintenance of the National Civil Aviation Security Program (NCASP)",
+    "options": [
+      "a. Appropriate authority for aviation security",
+      "b. DGCA",
+      "c. ASG",
+      "d. AAI"
+    ],
+    "answer": "a. Appropriate authority for aviation security"
+  },
+  {
+    "question": "A building through which cargo passes between air and ground transport and in which processing facilities are located or in which cargo is stored pending transfer to air or ground transport",
+    "options": [
+      "a. Cooling pit",
+      "b. Baggage MakeupArea",
+      "c. Cargo Building",
+      "d. Cargo Area"
+    ],
+    "answer": "c. Cargo Building"
+  },
+  {
+    "question": "All items, other than catering supplies, associated with passenger in-flight services, for example newspapers, magazines, headphones, audio and video tapes, pillows and blankets, amenity kits, etc.",
+    "options": [
+      "a. Dangerous goods",
+      "b. Catering Stores",
+      "c. Catering Supplies",
+      "d. Cargo"
+    ],
+    "answer": "c. Catering Supplies"
+  },
+  {
+    "question": "Set of procedures applied in handling, containment, and resolution of an emergency situation in planned and coordinated steps for responding to a major emergency situation in order to keep the problem from growing worse.",
+    "options": [
+      "a. Crisis Management",
+      "b. Bomb Threat",
+      "c. Standard and Recommended Practices",
+      "d. Bomb Alert"
+    ],
+    "answer": "a. Crisis Management"
+  },
+  {
+    "question": "A device worn by persons operating X-ray equipment to warn them of potential over exposure to radiation leakage from X-ray equipment.",
+    "options": [
+      "a. Airport Entry Permit",
+      "b. Fanbeamgeometry",
+      "c. Dosimeter Batch",
+      "d. LeadShielding"
+    ],
+    "answer": "c. Dosimeter Batch"
+  },
+  {
+    "question": "Baggage of passengers subject to transfer from the aircraft of one operator to the aircraft of another operator in the course of the passenger’s journey.",
+    "options": [
+      "a. Suspicious bag",
+      "b. Courier bag",
+      "c. Handbag",
+      "d. Interline baggage"
+    ],
+    "answer": "d. Interline baggage"
+  },
+  {
+    "question": "A person, organization or enterprise engaged in or offering to engage in an aircraft operation.",
+    "options": [
+      "a. BCAS",
+      "b. Operator",
+      "c. Airport",
+      "d. ICAO"
+    ],
+    "answer": "b. Operator"
+  },
+  {
+    "question": "A means by which the introduction of weapons, explosives or articles likely to be utilized to commit an act of unlawful interference can be prevented.",
+    "options": [
+      "a. Sabotage",
+      "b. Security Control",
+      "c. Sterile Area",
+      "d. Hijacking"
+    ],
+    "answer": "b. Security Control"
+  },
+  {
+    "question": "The application of technical or other means which are intended to identify and/or detect weapons, explosives or other dangerous devices which may be used to commit an act of unlawful interference.",
+    "options": [
+      "a. Security Control",
+      "b. Screening",
+      "c. Security Audit",
+      "d. Standard and Recommended Practices"
+    ],
+    "answer": "b. Screening"
+  },
+  {
+    "question": "Baggage, which arrives at an airport and is not retrieved or claimed by a passenger.",
+    "options": [
+      "a. Unclaimed baggage",
+      "b. Unaccompanied baggage",
+      "c. Transit baggage",
+      "d. Transfer baggage"
+    ],
+    "answer": "a. Unclaimed baggage"
+  },
+  {
+    "question": "Baggage, which is transported as cargo and may or may not be carried on the same aircraft with the person to whom it belongs.",
+    "options": [
+      "a. Unidentified baggage",
+      "b. Unaccompanied baggage",
+      "c. Interline baggage",
+      "d. Transit baggage"
+    ],
+    "answer": "b. Unaccompanied baggage"
+  },
+  {
+    "question": "A standard practice is defined as any specification for physical characteristics, configuration material, performance, personnel or procedure, the uniform application of which is recognized as ____________ for the safety of civil aviation.",
+    "options": [
+      "a. Desirable",
+      "b. Necessary",
+      "c. Provisional",
+      "d. Recommended"
+    ],
+    "answer": "b. Necessary"
+  },
+  {
+    "question": "ICAO has its headquarters in.",
+    "options": [
+      "a. Montreal",
+      "b. Chicago",
+      "c. Geneva",
+      "d. Paris"
+    ],
+    "answer": "a. Montreal"
+  },
+  {
+    "question": "Provision and maintenance of security hold areas, frisking point, security stamps for ASGis the responsibility of ________",
+    "options": [
+      "a. BCAS",
+      "b. Airport Operator",
+      "c. Airlines",
+      "d. ASG/APSU"
+    ],
+    "answer": "b. Airport Operator"
+  },
+  {
+    "question": "A ____________ practice is any specification for physical characteristics, configuration, material , performance, personnel or procedure, the uniform application of which is recognized as desirable",
+    "options": [
+      "a. Recommended",
+      "b. Standard",
+      "c. Necessary",
+      "d. Desirable"
+    ],
+    "answer": "a. Recommended"
+  },
+  {
+    "question": "Convention for suppression of unlawful seizure of aircraft",
+    "options": [
+      "a. Chicago Convention",
+      "b. Montreal Convention",
+      "c. Hague Convention",
+      "d. Tokyo Convention"
+    ],
+    "answer": "c. Hague Convention"
+  },
+  {
+    "question": "Convention against suppression of unlawful acts against the safety of civil aviation",
+    "options": [
+      "a. Chicago Convention",
+      "b. Montreal Convention",
+      "c. Hague Convention",
+      "d. Tokyo Convention"
+    ],
+    "answer": "b. Montreal Convention"
+  }
+]
