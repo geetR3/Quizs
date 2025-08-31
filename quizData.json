@@ -349,4 +349,157 @@
     ],
     "answer": "b. Montreal Convention"
   }
+  
+  {
+    "question": "The abbreviation WTMD stands for ?",
+    "options": [
+      "a. Watch Through Metal Detector",
+      "b. Wired Threat Metal Detection",
+      "c. Wire Testing Metal Detector",
+      "d. Walk Through Metal Detector"
+    ],
+    "answer": "d. Walk Through Metal Detector"
+  },
+  {
+    "question": "The abbreviation AMD stands for?",
+    "options": [
+      "a. Aviation Metal Detector",
+      "b. Archway Metal Detector",
+      "c. Armed Metal Detector",
+      "d. Archway Mobile Detector"
+    ],
+    "answer": "b. Archway Metal Detector"
+  },
+  {
+    "question": "The abbreviation ASTP stands for ?",
+    "options": [
+      "a. Aviation Security Training Package",
+      "b. Airlines Security Training Package",
+      "c. Aviation Security Training Programme",
+      "d. Airlines Security Training Procedure"
+    ],
+    "answer": "c. Aviation Security Training Programme"
+  },
+  {
+    "question": "The abbreviation AWG stands for?",
+    "options": [
+      "a. Airline Works Group",
+      "b. American Wire Gauge",
+      "c. Airports Wireless Gauge",
+      "d. Aviation Watch Group"
+    ],
+    "answer": "b. American Wire Gauge"
+  },
+  {
+    "question": "The abbreviation BTAC stands for?",
+    "options": [
+      "a. Bomb Threat Airport Council",
+      "b. Bomb Threat Assessment Council",
+      "c. Bomb Threat Airport Committee",
+      "d. Bomb Threat Assessment Committee"
+    ],
+    "answer": "d. Bomb Threat Assessment Committee"
+  },
+  {
+    "question": "The abbreviation BDDS stands for?",
+    "options": [
+      "a. Bomb Disposal and Detection Squad",
+      "b. Bomb Detector Dog Squad",
+      "c. Bomb Detection and Disposal Squad",
+      "d. Bomb Detection and Disposal Service"
+    ],
+    "answer": "c. Bomb Detection and Disposal Squad"
+  },
+  {
+    "question": "The abbreviation BTCP stands for?",
+    "options": [
+      "a. Bomb Threat Contingency Plan",
+      "b. Bomb Threat Counter Plan",
+      "c. Bomb Threat Country Plan",
+      "d. Bomb Threat Counter Procedure"
+    ],
+    "answer": "a. Bomb Threat Contingency Plan"
+  },
+  {
+    "question": "The abbreviation BWAF stands for?",
+    "options": [
+      "a. Bomb Warning Airport Form",
+      "b. Bomb Warning Assessment Form",
+      "c. Bomb Warning Assistance Form",
+      "d. Bomb Warning Assessment Focus"
+    ],
+    "answer": "b. Bomb Warning Assessment Form"
+  },
+  {
+    "question": "The abbreviation BTCL stands for?",
+    "options": [
+      "a. Bomb Threat Counter List",
+      "b. Bomb Threat Check List",
+      "c. Bomb Threat Committee List",
+      "d. Bomb Threat Contingency List"
+    ],
+    "answer": "b. Bomb Threat Check List"
+  },
+  {
+    "question": "The abbreviation CAPPS stands for?",
+    "options": [
+      "a. Civil Aviation Passenger Profiling System",
+      "b. Computer Aided Passenger Profiling service",
+      "c. Computer Aided Passenger Profiling System",
+      "d. Civil Aviation Passenger Profiling System"
+    ],
+    "answer": "c. Computer Aided Passenger Profiling System"
+  },
+  {
+    "question": "The abbreviation CTCP stands for?",
+    "options": [
+      "a. Counter Terrorist Contingency Plan",
+      "b. Computed Terrorist Contingency Plan",
+      "c. Counter Terrorist Computer Plan",
+      "d. Counter Terrorist Control Plan"
+    ],
+    "answer": "a. Counter Terrorist Contingency Plan"
+  },
+  {
+    "question": "The abbreviation CCCR stands for?",
+    "options": [
+      "a. Counter Committee Control Room",
+      "b. Central Committee Control Room",
+      "c. Central Committee Computer Room",
+      "d. Centre Committee Control Room"
+    ],
+    "answer": "b. Central Committee Control Room"
+  },
+  {
+    "question": "The abbreviation CLIP stands for?",
+    "options": [
+      "a. Central Line Identification Procedure",
+      "b. Computer Line Identification Procedure",
+      "c. Caller Line Identification Procedure",
+      "d. Caller Line Identification Plan"
+    ],
+    "answer": "c. Caller Line Identification Procedure"
+  },
+  {
+    "question": "The abbreviation CMG stands for?",
+    "options": [
+      "a. Critical Management Group",
+      "b. Crisis Management Guards",
+      "c. Crisis Management Group",
+      "d. Computer Management Group"
+    ],
+    "answer": "c. Crisis Management Group"
+  },
+  {
+    "question": "The abbreviation COS(AH) stands for?",
+    "options": [
+      "a. Committee of Security on Aircraft Hijacking",
+      "b. Commissioner of Secretaries on Aircraft Hijacking",
+      "c. Committee of Secretaries on Aircraft Hijacking",
+      "d. Commander of Situation on Aircraft Hijacking"
+    ],
+    "answer": "c. Committee of Secretaries on Aircraft Hijacking"
+  }
+
+
 ]
