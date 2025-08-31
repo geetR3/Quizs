@@ -1,76 +1,147 @@
-
 body {
-            
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+    font-family: 'Poppins', sans-serif;
+    /* एक सॉफ्ट ग्रेडिएंट बैकग्राउंड */
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* min-height से यह छोटे स्क्रीन पर भी सही दिखेगा */
+}
 
-        .quiz-container {
-            background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            width: 90%;
-            max-width: 600px;
-            padding: 20px;
-            text-align: center;
-            box-sizing: border-box;
-        }
+.quiz-container {
+    background: rgba(255, 255, 255, 0.95); /* थोड़ा ट्रांसपेरेंट बैकग्राउंड */
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* गहरा और बेहतर शैडो */
+    width: 95%;
+    max-width: 600px;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: transform 0.5s ease-in-out; /* कंटेनर के लिए एनिमेशन */
+}
 
-        .question {
-            font-size: 1.2em;
-            margin-bottom: 20px;
-        }
+.quiz-container:hover {
+    transform: translateY(-5px); /* माउस ले जाने पर थोड़ा ऊपर उठेगा */
+}
 
-        .options {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
+.question {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #4a4e69;
+}
 
-        .option {
-            padding: 10px;
-            border: 2px solid #ccc;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: background-color 0.3s, color 0.3s;
-        }
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* ऑप्शंस के बीच की दूरी बढ़ाई */
+}
 
-        .option:hover {
-            background-color: #007bff;
-            color: #fff;
-        }
+.option {
+    padding: 15px;
+    border: none; /* बॉर्डर हटाकर शैडो जोड़ा */
+    border-radius: 12px;
+    background-color: #f1f1f1;
+    color: #555;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* सभी प्रॉपर्टीज पर स्मूथ ट्रांजिशन */
+    font-size: 1em;
+    text-align: left; /* टेक्स्ट को बाईं ओर अलाइन किया */
+}
 
-        .timer {
-            font-size: 1.2em;
-            margin-bottom: 20px;
-            color: #ff5722;
-        }
+.option:hover {
+    background-color: #0077b6; /* नीला रंग का होवर इफेक्ट */
+    color: #fff;
+    transform: translateX(5px); /* माउस ले जाने पर थोड़ा दाईं ओर खिसकेगा */
+}
 
-        .result {
-            font-size: 1.5em;
-            color: #4caf50;
-            display: none;
-        }
+.option.correct {
+    background-color: #4CAF50; /* सही उत्तर के लिए हरा रंग */
+    color: #fff;
+    animation: pulse-correct 1s infinite; /* सही उत्तर के लिए एनिमेशन */
+}
 
-        .restart-btn {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            font-size: 1em;
-            border-radius: 8px;
-            cursor: pointer;
-            margin-top: 20px;
-            display: none;
-        }
+.option.incorrect {
+    background-color: #f44336; /* गलत उत्तर के लिए लाल रंग */
+    color: #fff;
+    animation: shake-incorrect 0.5s ease-in-out; /* गलत उत्तर के लिए एनिमेशन */
+}
 
-        .restart-btn:hover {
-            background-color: #0056b3;
-        }
+/* नए एनिमेशन */
+@keyframes pulse-correct {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+    100% { transform: scale(1); }
+}
+
+@keyframes shake-incorrect {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.timer {
+    font-size: 1.4em;
+    margin-bottom: 25px;
+    color: #e63946; /* गहरा लाल रंग */
+    font-weight: 600;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.result {
+    font-size: 2em;
+    color: #2a9d8f; /* गहरा फिरोजी रंग */
+    font-weight: 700;
+    margin-top: 20px;
+    display: none;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.restart-btn {
+    background-color: #02c39a; /* हरा-नीला बटन */
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: none;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.restart-btn:hover {
+    background-color: #00a896;
+    transform: scale(1.05); /* माउस ले जाने पर थोड़ा बड़ा होगा */
+}
+
+/* फ़ेड इन एनिमेशन */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* मोबाइल के लिए रिस्पॉन्सिव डिज़ाइन */
+@media (max-width: 768px) {
+    .quiz-container {
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .question {
+        font-size: 1.2em;
+    }
+
+    .option {
+        padding: 12px;
+        font-size: 0.9em;
+    }
+}
