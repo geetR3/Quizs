@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    /* एक सॉफ्ट ग्रेडिएंट बैकग्राउंड */
+
     background: linear-gradient(135deg, #74ebd5, #acb6e5);
     color: #333;
     margin: 0;
@@ -8,23 +8,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* min-height से यह छोटे स्क्रीन पर भी सही दिखेगा */
+    min-height: 100vh; 
 }
 
 .quiz-container {
-    background: rgba(255, 255, 255, 0.95); /* थोड़ा ट्रांसपेरेंट बैकग्राउंड */
+    background: rgba(255, 255, 255, 0.95);
     border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* गहरा और बेहतर शैडो */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
     width: 95%;
     max-width: 600px;
     padding: 30px;
     text-align: center;
     box-sizing: border-box;
-    transition: transform 0.5s ease-in-out; /* कंटेनर के लिए एनिमेशन */
+    transition: transform 0.5s ease-in-out; 
 }
 
 .quiz-container:hover {
-    transform: translateY(-5px); /* माउस ले जाने पर थोड़ा ऊपर उठेगा */
+    transform: translateY(-5px); 
 }
 
 .question {
@@ -37,38 +37,38 @@ body {
 .options {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* ऑप्शंस के बीच की दूरी बढ़ाई */
+    gap: 15px; 
 }
 
 .option {
     padding: 15px;
-    border: none; /* बॉर्डर हटाकर शैडो जोड़ा */
+    border: none; 
     border-radius: 12px;
     background-color: #f1f1f1;
     color: #555;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease; /* सभी प्रॉपर्टीज पर स्मूथ ट्रांजिशन */
+    transition: all 0.3s ease; 
     font-size: 1em;
-    text-align: left; /* टेक्स्ट को बाईं ओर अलाइन किया */
+    text-align: left; 
 }
 
 .option:hover {
-    background-color: #0077b6; /* नीला रंग का होवर इफेक्ट */
+    background-color: #0077b6; 
     color: #fff;
-    transform: translateX(5px); /* माउस ले जाने पर थोड़ा दाईं ओर खिसकेगा */
+    transform: translateX(5px);
 }
 
 .option.correct {
-    background-color: #4CAF50; /* सही उत्तर के लिए हरा रंग */
+    background-color: #4CAF50; 
     color: #fff;
-    animation: pulse-correct 1s infinite; /* सही उत्तर के लिए एनिमेशन */
+    animation: pulse-correct 1s infinite; 
 }
 
 .option.incorrect {
-    background-color: #f44336; /* गलत उत्तर के लिए लाल रंग */
+    background-color: #f44336; 
     color: #fff;
-    animation: shake-incorrect 0.5s ease-in-out; /* गलत उत्तर के लिए एनिमेशन */
+    animation: shake-incorrect 0.5s ease-in-out; 
 }
 
 /* नए एनिमेशन */
@@ -89,14 +89,14 @@ body {
 .timer {
     font-size: 1.4em;
     margin-bottom: 25px;
-    color: #e63946; /* गहरा लाल रंग */
+    color: #e63946; 
     font-weight: 600;
     animation: fadeIn 1s ease-in-out;
 }
 
 .result {
     font-size: 2em;
-    color: #2a9d8f; /* गहरा फिरोजी रंग */
+    color: #2a9d8f; 
     font-weight: 700;
     margin-top: 20px;
     display: none;
@@ -104,7 +104,7 @@ body {
 }
 
 .restart-btn {
-    background-color: #02c39a; /* हरा-नीला बटन */
+    background-color: #02c39a; 
     color: #fff;
     border: none;
     padding: 12px 25px;
@@ -120,16 +120,16 @@ body {
 
 .restart-btn:hover {
     background-color: #00a896;
-    transform: scale(1.05); /* माउस ले जाने पर थोड़ा बड़ा होगा */
+    transform: scale(1.05);
 }
 
-/* फ़ेड इन एनिमेशन */
+
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* मोबाइल के लिए रिस्पॉन्सिव डिज़ाइन */
+
 @media (max-width: 768px) {
     .quiz-container {
         padding: 20px;
