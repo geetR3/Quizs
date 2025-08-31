@@ -14,6 +14,16 @@ async function fetchQuizData() {
 
 // Global variable to hold quiz data
 let quizData = [];
+let currentQuestion = 0;
+let score = 0;
+
+// Get elements from the DOM
+const questionEl = document.querySelector('.question');
+const optionsEl = document.querySelector('.options');
+const resultEl = document.querySelector('.result');
+const scoreEl = document.getElementById('score');
+const restartBtn = document.querySelector('.restart-btn');
+const timerEl = document.getElementById('time'); // टाइमर एलिमेंट को भी हटाना होगा
 
 // Initialize the quiz
 async function initQuiz() {
@@ -25,33 +35,15 @@ async function initQuiz() {
     }
 }
 
-// ... baaki ka code waisa hi rahega ...
-
-// Initialize the quiz with the first question
-initQuiz();
-
-        let currentQuestion = 0;
-        let score = 0;
-        let timeLeft = 30;
-        let timerInterval;
-        const timerEl = document.getElementById('time');
-        const questionEl = document.querySelector('.question');
-        const optionsEl = document.querySelector('.options');
-        const resultEl = document.querySelector('.result');
-        const scoreEl = document.getElementById('score');
-        const restartBtn = document.querySelector('.restart-btn');
-
-        // Function to load the question
-        // Function to load the question
+// Function to load the next question
 function loadQuestion() {
     if (currentQuestion >= quizData.length) {
         endQuiz();
         return;
     }
-    clearInterval(timerInterval);
-    timeLeft = 30;
-    timerEl.textContent = timeLeft;
-    startTimer();
+    
+    // अब टाइमर से जुड़ा कोई कोड नहीं है
+    
     const currentQuiz = quizData[currentQuestion];
 
     // Question number aur text ko jodein
@@ -67,31 +59,18 @@ function loadQuestion() {
     });
 }
 
-        // Check the answer
-        function checkAnswer(selectedOption) {
-            if (selectedOption === quizData[currentQuestion].answer) {
-                score++;
-            }
-            currentQuestion++;
-            loadQuestion();
-        }
+// Check the answer
+function checkAnswer(selectedOption) {
+    if (selectedOption === quizData[currentQuestion].answer) {
+        score++;
+    }
+    currentQuestion++;
+    loadQuestion();
+}
 
-        // Start the timer
-        function startTimer() {
-            timerInterval = setInterval(() => {
-                timeLeft--;
-                timerEl.textContent = timeLeft;
-                if (timeLeft <= 0) {
-                    clearInterval(timerInterval);
-                    endQuiz();
-                }
-            }, 1000);
-        }
-
-        // End the quiz and show the results
-      // End the quiz and show the results
+// End the quiz and show the results
 function endQuiz() {
-    clearInterval(timerInterval);
+    // टाइमर रोकने की जरूरत नहीं
     questionEl.style.display = 'none';
     optionsEl.style.display = 'none';
     resultEl.style.display = 'block';
@@ -102,23 +81,21 @@ function endQuiz() {
     restartBtn.style.display = 'block';
 }
 
-        // Restart the quiz
-        restartBtn.addEventListener('click', () => {
-            // Reset variables
-            currentQuestion = 0;
-            score = 0;
-            timeLeft = 30;
-            timerEl.textContent = timeLeft;
+// Restart the quiz
+restartBtn.addEventListener('click', () => {
+    // Reset variables
+    currentQuestion = 0;
+    score = 0;
 
-            // Reset the display
-            questionEl.style.display = 'block';
-            optionsEl.style.display = 'flex'; // Ensure options are displayed correctly
-            resultEl.style.display = 'none';
-            restartBtn.style.display = 'none';
+    // Reset the display
+    questionEl.style.display = 'block';
+    optionsEl.style.display = 'flex';
+    resultEl.style.display = 'none';
+    restartBtn.style.display = 'none';
 
-            // Load the first question
-            loadQuestion();
-        });
+    // Load the first question
+    loadQuestion();
+});
 
-        // Initialize the quiz with the first question
-loadQuestion();
+// Initialize the quiz with the first question
+initQuiz(); // initQuiz() को कॉल करें, ताकि यह डेटा लोड करे
