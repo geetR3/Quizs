@@ -23,7 +23,7 @@ const optionsEl = document.querySelector('.options');
 const resultEl = document.querySelector('.result');
 const scoreEl = document.getElementById('score');
 const restartBtn = document.querySelector('.restart-btn');
-const timerEl = document.getElementById('time'); // टाइमर एलिमेंट को भी हटाना होगा
+// timerEl variable हटा दिया गया है क्योंकि यह HTML में मौजूद नहीं है
 
 // Initialize the quiz
 async function initQuiz() {
@@ -41,8 +41,6 @@ function loadQuestion() {
         endQuiz();
         return;
     }
-    
-    // अब टाइमर से जुड़ा कोई कोड नहीं है
     
     const currentQuiz = quizData[currentQuestion];
 
@@ -70,7 +68,6 @@ function checkAnswer(selectedOption) {
 
 // End the quiz and show the results
 function endQuiz() {
-    // टाइमर रोकने की जरूरत नहीं
     questionEl.style.display = 'none';
     optionsEl.style.display = 'none';
     resultEl.style.display = 'block';
@@ -98,4 +95,4 @@ restartBtn.addEventListener('click', () => {
 });
 
 // Initialize the quiz with the first question
-initQuiz(); // initQuiz() को कॉल करें, ताकि यह डेटा लोड करे
+initQuiz();
