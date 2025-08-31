@@ -1,5 +1,5 @@
 <html>
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Quiz</title>
@@ -8,11 +8,17 @@
 </head>
 <body>
     <div class="quiz-container">
+        
         <div class="question">Question will appear here</div>
         <div class="options"></div>
+        <div class="controls">
+            <button class="back-btn">Back</button>
+            <button class="next-btn">Next</button>
+            <button class="submit-btn" style="display: none;">Submit</button>
+        </div>
         <div class="result">Your score: <span id="score">0</span></div>
-        <button class="restart-btn">Restart Quiz</button>
+        <button class="restart-btn" style="display: none;">Restart Quiz</button>
     </div>
-    <script src="script.js"></script>
 </body>
+<script src="script.js"></script>
 </html>
